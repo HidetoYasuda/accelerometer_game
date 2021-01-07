@@ -28,7 +28,7 @@ basic.forever(function () {
     敵.change(LedSpriteProperty.X, randint(-1, 1))
     敵.change(LedSpriteProperty.Y, randint(-1, 1))
     if (ゲームオーバー == false) {
-        game.addScore(1)
+        game.setScore(game.score() + 1)
     }
     basic.pause(1000)
 })

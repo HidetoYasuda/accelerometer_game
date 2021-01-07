@@ -1,5 +1,5 @@
 {
-    "name": "Accelerometer_game",
+    "name": "Accelerometer_game迷走ゲーム",
     "description": "",
     "dependencies": {
         "core": "*",
